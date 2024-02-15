@@ -11,3 +11,8 @@ def find_coffee(coffee):
 
 # for x in map_coffee:
 #     print(x)
+
+filter_coffee = filter(find_coffee, menu)
+print(filter_coffee)
+for x in filter_coffee:
+    print(x)
